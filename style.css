@@ -1,6 +1,16 @@
+body {
+  background-color: #ccc;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 .bg-image {
   height: 85vh;
-  background: url("images/bg.png");
+  background: url("/images/bg.png");
   background-size: cover;
   position: relative;
 }
@@ -19,5 +29,3 @@
   left: 25%;
   transform: translate(-50%, -50%);
 }
-
-
