@@ -1,0 +1,23 @@
+.bg-image {
+  height: 85vh;
+  background: url("images/bg.png");
+  background-size: cover;
+  position: relative;
+}
+
+.fa-instagram:hover,
+.fa-linkedin:hover,
+.fa-github:hover,
+.altcademy:hover {
+  font-size: 1.2em;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+
