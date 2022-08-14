@@ -4,8 +4,22 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+footer {
+  padding: 2vh 0;
+  text-align: center;
+  background: #ccc;
+}
+
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+footer li {
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
 }
 
 .bg-image {
@@ -22,10 +36,20 @@ h1 {
   font-size: 1.2em;
 }
 
+.about,
+.contact {
+  background: #333;
+  color: #ccc;
+}
+
+.hero {
+  padding: 20vh 0;
+}
+
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 25%;
   transform: translate(-50%, -50%);
 }
@@ -35,5 +59,16 @@ h1 {
   font-weight: bold;
 }
 
-li {
-list-style-type: none;;}
+.projects p {
+  color: #333;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #333;
+}
+
+.projects a:hover {
+  text-decoration: none;
+  color: blue;
+}
